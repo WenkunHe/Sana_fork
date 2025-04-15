@@ -3,10 +3,10 @@ data:
   image_size: 512
   caption_proportion:
     prompt: 1
-  external_caption_suffixes: ['', _InternVL2-26B, _VILA1-5-13B]
+  external_caption_suffixes: ['', _InternVL2-26B, _InternVL2-8B]
   external_clipscore_suffixes:
     - _InternVL2-26B_clip_score
-    - _VILA1-5-13B_clip_score
+    - _InternVL2-8B_clip_score
     - _prompt_clip_score
   clip_thr_temperature: 0.1
   clip_thr: 25.0
