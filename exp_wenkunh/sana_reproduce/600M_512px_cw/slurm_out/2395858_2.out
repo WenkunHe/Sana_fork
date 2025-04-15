@@ -1,0 +1,251 @@
+I0415 00:37:07.698000 4166013 site-packages/torch/distributed/run.py:675] Using nproc_per_node=8.
+I0415 00:37:07.701000 2007742 site-packages/torch/distributed/run.py:675] Using nproc_per_node=8.
+W0415 00:37:07.699000 4166013 site-packages/torch/distributed/run.py:792] 
+W0415 00:37:07.699000 4166013 site-packages/torch/distributed/run.py:792] *****************************************
+W0415 00:37:07.699000 4166013 site-packages/torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0415 00:37:07.699000 4166013 site-packages/torch/distributed/run.py:792] *****************************************
+W0415 00:37:07.701000 2007742 site-packages/torch/distributed/run.py:792] 
+W0415 00:37:07.701000 2007742 site-packages/torch/distributed/run.py:792] *****************************************
+W0415 00:37:07.701000 2007742 site-packages/torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0415 00:37:07.701000 2007742 site-packages/torch/distributed/run.py:792] *****************************************
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_scripts.train
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 8
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 30056
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.65.12.67:29500
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_scripts.train
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 8
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 30056
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.65.12.67:29500
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_c3sfgin2
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0415 00:37:07.699000 4166013 site-packages/torch/distributed/launcher/api.py:194] 
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_8kqoan_j
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0415 00:37:07.702000 2007742 site-packages/torch/distributed/launcher/api.py:194] 
+I0415 00:37:07.713000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I0415 00:37:07.712000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I0415 00:37:07.713000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I0415 00:37:07.712000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=cw-dfw-h100-002-272-012.cm.cluster
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=23761
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=cw-dfw-h100-002-272-012.cm.cluster
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=23761
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[8, 9, 10, 11, 12, 13, 14, 15]
+I0415 00:37:08.879000 4166013 site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[8, 9, 10, 11, 12, 13, 14, 15]
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0415 00:37:08.881000 2007742 site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I0415 00:37:08.882000 2007742 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I0415 00:37:08.880000 4166013 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I0415 00:37:08.882000 2007742 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0415 00:37:08.880000 4166013 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0415 00:37:08.882000 2007742 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0415 00:37:08.880000 4166013 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python: Error while finding module specification for 'train_scripts.train' (ModuleNotFoundError: No module named 'train_scripts')
+E0415 00:37:08.985000 4166013 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 4166167) of binary: /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python
+E0415 00:37:08.987000 2007742 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 2007821) of binary: /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/python
+I0415 00:37:08.991000 4166013 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 0)
+Traceback (most recent call last):
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/torchrun", line 8, in <module>
+I0415 00:37:08.993000 2007742 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 8)
+Traceback (most recent call last):
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    sys.exit(main())
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/run.py", line 918, in main
+    return f(*args, **kwargs)
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/run.py", line 909, in run
+    run(args)
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    elastic_launch(
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/anaconda3/envs/dcae/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_scripts.train FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 4166168)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 4166169)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 4166170)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 4166171)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 4166172)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 4166173)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 4166174)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-272-012.cm.cluster
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 4166167)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_scripts.train FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 9 (local_rank: 1)
+  exitcode  : 1 (pid: 2007822)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 10 (local_rank: 2)
+  exitcode  : 1 (pid: 2007823)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 11 (local_rank: 3)
+  exitcode  : 1 (pid: 2007824)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 12 (local_rank: 4)
+  exitcode  : 1 (pid: 2007825)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 13 (local_rank: 5)
+  exitcode  : 1 (pid: 2007826)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 14 (local_rank: 6)
+  exitcode  : 1 (pid: 2007827)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 15 (local_rank: 7)
+  exitcode  : 1 (pid: 2007828)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-04-15_00:37:08
+  host      : cw-dfw-h100-002-362-026.cm.cluster
+  rank      : 8 (local_rank: 0)
+  exitcode  : 1 (pid: 2007821)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: cw-dfw-h100-002-362-026: task 1: Exited with exit code 1
+srun: Terminating StepId=2395860.1
+srun: error: cw-dfw-h100-002-272-012: task 0: Exited with exit code 1

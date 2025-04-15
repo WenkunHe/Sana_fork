@@ -1,0 +1,738 @@
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/run.py:675] Using nproc_per_node=8.
+W0415 00:55:11.418000 2505027 site-packages/torch/distributed/run.py:792] 
+W0415 00:55:11.418000 2505027 site-packages/torch/distributed/run.py:792] *****************************************
+W0415 00:55:11.418000 2505027 site-packages/torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0415 00:55:11.418000 2505027 site-packages/torch/distributed/run.py:792] *****************************************
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_scripts/train.py
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 8
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 16365
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.65.31.207:29500
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_wvo5xb5_
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0415 00:55:11.418000 2505027 site-packages/torch/distributed/launcher/api.py:194] 
+I0415 00:55:11.423000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I0415 00:55:11.423000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/run.py:675] Using nproc_per_node=8.
+W0415 00:55:11.634000 3946068 site-packages/torch/distributed/run.py:792] 
+W0415 00:55:11.634000 3946068 site-packages/torch/distributed/run.py:792] *****************************************
+W0415 00:55:11.634000 3946068 site-packages/torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0415 00:55:11.634000 3946068 site-packages/torch/distributed/run.py:792] *****************************************
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_scripts/train.py
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 8
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 16365
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.65.31.207:29500
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_sbjac8wd
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0415 00:55:11.634000 3946068 site-packages/torch/distributed/launcher/api.py:194] 
+I0415 00:55:11.638000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I0415 00:55:11.639000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=cw-dfw-h100-004-211-013.cm.cluster
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=25779
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:55:12.611000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=cw-dfw-h100-004-211-013.cm.cluster
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=25779
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3, 4, 5, 6, 7]
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[8, 9, 10, 11, 12, 13, 14, 15]
+I0415 00:55:12.612000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[8, 9, 10, 11, 12, 13, 14, 15]
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16, 16, 16, 16, 16]
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I0415 00:55:12.612000 2505027 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I0415 00:55:12.608000 3946068 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I0415 00:55:12.612000 2505027 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0415 00:55:12.609000 3946068 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0415 00:55:12.612000 2505027 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0415 00:55:12.609000 3946068 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+2025-04-15 15:55:35 - [Sana] - INFO - Distributed environment: MULTI_GPU  Backend: nccl
+Num processes: 16
+Process index: 8
+Local process index: 0
+Device: cuda:0
+
+Mixed precision type: fp16
+
+2025-04-15 15:55:35 - [Sana] - INFO - Config: 
+{
+    "data": {
+        "data_dir": [
+            "data/InternData"
+        ],
+        "caption_proportion": {
+            "prompt": 1
+        },
+        "external_caption_suffixes": [
+            "",
+            "_InternVL2-26B",
+            "_InternVL2-8B"
+        ],
+        "external_clipscore_suffixes": [
+            "_InternVL2-26B_clip_score",
+            "_InternVL2-8B_clip_score",
+            "_prompt_clip_score"
+        ],
+        "clip_thr_temperature": 0.1,
+        "clip_thr": 25.0,
+        "del_img_clip_thr": 0.0,
+        "sort_dataset": false,
+        "load_text_feat": false,
+        "load_vae_feat": false,
+        "transform": "default_train",
+        "type": "SanaWebDatasetMS",
+        "image_size": 512,
+        "hq_only": false,
+        "valid_num": 0,
+        "data": null,
+        "extra": null
+    },
+    "model": {
+        "model": "SanaMS_600M_P1_D28",
+        "teacher": null,
+        "image_size": 512,
+        "mixed_precision": "fp16",
+        "fp32_attention": true,
+        "load_from": null,
+        "discriminator_model": null,
+        "teacher_model": null,
+        "teacher_model_weight_dtype": null,
+        "resume_from": {
+            "checkpoint": "latest",
+            "load_ema": false,
+            "resume_optimizer": true,
+            "resume_lr_scheduler": true
+        },
+        "aspect_ratio_type": "ASPECT_RATIO_512",
+        "multi_scale": true,
+        "pe_interpolation": 1.0,
+        "micro_condition": false,
+        "attn_type": "linear",
+        "autocast_linear_attn": false,
+        "ffn_type": "glumbconv",
+        "mlp_acts": [
+            "silu",
+            "silu",
+            null
+        ],
+        "mlp_ratio": 2.5,
+        "use_pe": false,
+        "pos_embed_type": "sincos",
+        "qk_norm": false,
+        "class_dropout_prob": 0.1,
+        "linear_head_dim": 32,
+        "cross_norm": false,
+        "cross_attn_type": "flash",
+        "logvar": false,
+        "cfg_scale": 4,
+        "cfg_embed": false,
+        "cfg_embed_scale": 1.0,
+        "guidance_type": "classifier-free",
+        "pag_applied_layers": [
+            8
+        ],
+        "ladd_multi_scale": true,
+        "head_block_ids": null,
+        "extra": null
+    },
+    "vae": {
+        "vae_type": "AutoencoderDC",
+        "vae_pretrained": "mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers",
+        "weight_dtype": "float32",
+        "scale_factor": 0.41407,
+        "vae_latent_dim": 32,
+        "vae_downsample_rate": 32,
+        "sample_posterior": true,
+        "extra": null
+    },
+    "text_encoder": {
+        "text_encoder_name": "gemma-2-2b-it",
+        "caption_channels": 2304,
+        "y_norm": true,
+        "y_norm_scale_factor": 0.01,
+        "model_max_length": 300,
+        "chi_prompt": [
+            "Given a user prompt, generate an \"Enhanced prompt\" that provides detailed visual descriptions suitable for image generation. Evaluate the level of detail in the user prompt:",
+            "- If the prompt is simple, focus on adding specifics about colors, shapes, sizes, textures, and spatial relationships to create vivid and concrete scenes.",
+            "- If the prompt is already detailed, refine and enhance the existing details slightly without overcomplicating.",
+            "Here are examples of how to transform or refine prompts:",
+            "- User Prompt: A cat sleeping -> Enhanced: A small, fluffy white cat curled up in a round shape, sleeping peacefully on a warm sunny windowsill, surrounded by pots of blooming red flowers.",
+            "- User Prompt: A busy city street -> Enhanced: A bustling city street scene at dusk, featuring glowing street lamps, a diverse crowd of people in colorful clothing, and a double-decker bus passing by towering glass skyscrapers.",
+            "Please generate only the enhanced description for the prompt below and avoid including any additional commentary or evaluations:",
+            "User Prompt: "
+        ],
+        "extra": null
+    },
+    "scheduler": {
+        "train_sampling_steps": 1000,
+        "predict_flow_v": true,
+        "noise_schedule": "linear_flow",
+        "pred_sigma": false,
+        "learn_sigma": true,
+        "vis_sampler": "flow_dpm-solver",
+        "flow_shift": 3.0,
+        "weighting_scheme": "logit_normal",
+        "weighting_scheme_discriminator": "logit_normal_trigflow",
+        "add_noise_timesteps": [
+            1.5708
+        ],
+        "logit_mean": 0.0,
+        "logit_std": 1.0,
+        "logit_mean_discriminator": 0.0,
+        "logit_std_discriminator": 1.0,
+        "sigma_data": 0.5,
+        "timestep_norm_scale_factor": 1.0,
+        "extra": null
+    },
+    "train": {
+        "num_workers": 10,
+        "seed": 1,
+        "train_batch_size": 64,
+        "num_epochs": 100,
+        "gradient_accumulation_steps": 1,
+        "grad_checkpointing": true,
+        "gradient_clip": 0.1,
+        "gc_step": 1,
+        "optimizer": {
+            "betas": [
+                0.9,
+                0.999,
+                0.9999
+            ],
+            "eps": [
+                1e-30,
+                1e-16
+            ],
+            "lr": 0.0001,
+            "type": "CAMEWrapper",
+            "weight_decay": 0.0
+        },
+        "optimizer_D": {
+            "eps": 1e-10,
+            "lr": 0.0001,
+            "type": "AdamW",
+            "weight_decay": 0.03
+        },
+        "load_from_optimizer": false,
+        "load_from_lr_scheduler": false,
+        "resume_lr_scheduler": true,
+        "lr_schedule": "constant",
+        "lr_schedule_args": {
+            "num_warmup_steps": 2000
+        },
+        "auto_lr": {
+            "rule": "sqrt"
+        },
+        "eval_batch_size": 16,
+        "use_fsdp": false,
+        "use_flash_attn": false,
+        "eval_sampling_steps": 500,
+        "lora_rank": 4,
+        "log_interval": 20,
+        "mask_type": "null",
+        "mask_loss_coef": 0.0,
+        "load_mask_index": false,
+        "snr_loss": false,
+        "real_prompt_ratio": 1.0,
+        "early_stop_hours": 10000.0,
+        "save_image_epochs": 1,
+        "save_model_epochs": 5,
+        "save_model_steps": 500,
+        "visualize": true,
+        "null_embed_root": "output/pretrained_models/",
+        "valid_prompt_embed_root": "output/tmp_embed/",
+        "validation_prompts": [
+            "dog",
+            "portrait photo of a girl, photograph, highly detailed face, depth of field",
+            "Self-portrait oil painting, a beautiful cyborg with golden hair, 8k",
+            "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
+            "A photo of beautiful mountain with realistic sunset and blue lake, highly detailed, masterpiece"
+        ],
+        "local_save_vis": true,
+        "deterministic_validation": true,
+        "online_metric": false,
+        "eval_metric_step": 2000,
+        "online_metric_dir": "metric_helper",
+        "work_dir": "output/debug",
+        "skip_step": 0,
+        "loss_type": "huber",
+        "huber_c": 0.001,
+        "num_ddim_timesteps": 50,
+        "ema_decay": 0.95,
+        "debug_nan": false,
+        "ema_update": false,
+        "ema_rate": 0.9999,
+        "tangent_warmup_steps": 10000,
+        "scm_cfg_scale": [
+            1.0
+        ],
+        "cfg_interval": null,
+        "scm_logvar_loss": true,
+        "norm_invariant_to_spatial_dim": true,
+        "norm_same_as_512_scale": false,
+        "g_norm_constant": 0.1,
+        "g_norm_r": 1.0,
+        "show_gradient": false,
+        "lr_scale": null,
+        "adv_lambda": 1.0,
+        "scm_loss": true,
+        "scm_lambda": 1.0,
+        "loss_scale": 1.0,
+        "r1_penalty": false,
+        "r1_penalty_weight": 1e-05,
+        "diff_timesteps_D": true,
+        "suffix_checkpoints": "disc",
+        "misaligned_pairs_D": false,
+        "discriminator_loss": "cross entropy",
+        "largest_timestep": 1.5708,
+        "train_largest_timestep": false,
+        "largest_timestep_prob": 0.5,
+        "extra": null
+    },
+    "controlnet": null,
+    "model_growth": null,
+    "work_dir": "output/600M_512px",
+    "resume_from": "latest",
+    "load_from": null,
+    "debug": false,
+    "caching": false,
+    "report_to": "wandb",
+    "tracker_project_name": "sana-baseline",
+    "name": "600M_512px",
+    "loss_report_name": "loss"
+}
+2025-04-15 15:55:35 - [Sana] - INFO - World_size: 16, seed: 1
+2025-04-15 15:55:35 - [Sana] - INFO - Initializing: DDP for training
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+2025-04-15 15:55:35 - [Sana] - INFO - Distributed environment: MULTI_GPU  Backend: nccl
+Num processes: 16
+Process index: 0
+Local process index: 0
+Device: cuda:0
+
+Mixed precision type: fp16
+
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+wandb: Currently logged in as: hwk22 (han2024) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.8
+wandb: Run data is saved locally in /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/wandb/run-20250415_005536-600M_512px
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 600M_512px
+wandb: ⭐️ View project at https://wandb.ai/han2024/sana-baseline
+wandb: 🚀 View run at https://wandb.ai/han2024/sana-baseline/runs/600M_512px
+2025-04-15 15:55:38 - [Sana] - INFO - Config: 
+{
+    "data": {
+        "data_dir": [
+            "data/InternData"
+        ],
+        "caption_proportion": {
+            "prompt": 1
+        },
+        "external_caption_suffixes": [
+            "",
+            "_InternVL2-26B",
+            "_InternVL2-8B"
+        ],
+        "external_clipscore_suffixes": [
+            "_InternVL2-26B_clip_score",
+            "_InternVL2-8B_clip_score",
+            "_prompt_clip_score"
+        ],
+        "clip_thr_temperature": 0.1,
+        "clip_thr": 25.0,
+        "del_img_clip_thr": 0.0,
+        "sort_dataset": false,
+        "load_text_feat": false,
+        "load_vae_feat": false,
+        "transform": "default_train",
+        "type": "SanaWebDatasetMS",
+        "image_size": 512,
+        "hq_only": false,
+        "valid_num": 0,
+        "data": null,
+        "extra": null
+    },
+    "model": {
+        "model": "SanaMS_600M_P1_D28",
+        "teacher": null,
+        "image_size": 512,
+        "mixed_precision": "fp16",
+        "fp32_attention": true,
+        "load_from": null,
+        "discriminator_model": null,
+        "teacher_model": null,
+        "teacher_model_weight_dtype": null,
+        "resume_from": {
+            "checkpoint": "latest",
+            "load_ema": false,
+            "resume_optimizer": true,
+            "resume_lr_scheduler": true
+        },
+        "aspect_ratio_type": "ASPECT_RATIO_512",
+        "multi_scale": true,
+        "pe_interpolation": 1.0,
+        "micro_condition": false,
+        "attn_type": "linear",
+        "autocast_linear_attn": false,
+        "ffn_type": "glumbconv",
+        "mlp_acts": [
+            "silu",
+            "silu",
+            null
+        ],
+        "mlp_ratio": 2.5,
+        "use_pe": false,
+        "pos_embed_type": "sincos",
+        "qk_norm": false,
+        "class_dropout_prob": 0.1,
+        "linear_head_dim": 32,
+        "cross_norm": false,
+        "cross_attn_type": "flash",
+        "logvar": false,
+        "cfg_scale": 4,
+        "cfg_embed": false,
+        "cfg_embed_scale": 1.0,
+        "guidance_type": "classifier-free",
+        "pag_applied_layers": [
+            8
+        ],
+        "ladd_multi_scale": true,
+        "head_block_ids": null,
+        "extra": null
+    },
+    "vae": {
+        "vae_type": "AutoencoderDC",
+        "vae_pretrained": "mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers",
+        "weight_dtype": "float32",
+        "scale_factor": 0.41407,
+        "vae_latent_dim": 32,
+        "vae_downsample_rate": 32,
+        "sample_posterior": true,
+        "extra": null
+    },
+    "text_encoder": {
+        "text_encoder_name": "gemma-2-2b-it",
+        "caption_channels": 2304,
+        "y_norm": true,
+        "y_norm_scale_factor": 0.01,
+        "model_max_length": 300,
+        "chi_prompt": [
+            "Given a user prompt, generate an \"Enhanced prompt\" that provides detailed visual descriptions suitable for image generation. Evaluate the level of detail in the user prompt:",
+            "- If the prompt is simple, focus on adding specifics about colors, shapes, sizes, textures, and spatial relationships to create vivid and concrete scenes.",
+            "- If the prompt is already detailed, refine and enhance the existing details slightly without overcomplicating.",
+            "Here are examples of how to transform or refine prompts:",
+            "- User Prompt: A cat sleeping -> Enhanced: A small, fluffy white cat curled up in a round shape, sleeping peacefully on a warm sunny windowsill, surrounded by pots of blooming red flowers.",
+            "- User Prompt: A busy city street -> Enhanced: A bustling city street scene at dusk, featuring glowing street lamps, a diverse crowd of people in colorful clothing, and a double-decker bus passing by towering glass skyscrapers.",
+            "Please generate only the enhanced description for the prompt below and avoid including any additional commentary or evaluations:",
+            "User Prompt: "
+        ],
+        "extra": null
+    },
+    "scheduler": {
+        "train_sampling_steps": 1000,
+        "predict_flow_v": true,
+        "noise_schedule": "linear_flow",
+        "pred_sigma": false,
+        "learn_sigma": true,
+        "vis_sampler": "flow_dpm-solver",
+        "flow_shift": 3.0,
+        "weighting_scheme": "logit_normal",
+        "weighting_scheme_discriminator": "logit_normal_trigflow",
+        "add_noise_timesteps": [
+            1.5708
+        ],
+        "logit_mean": 0.0,
+        "logit_std": 1.0,
+        "logit_mean_discriminator": 0.0,
+        "logit_std_discriminator": 1.0,
+        "sigma_data": 0.5,
+        "timestep_norm_scale_factor": 1.0,
+        "extra": null
+    },
+    "train": {
+        "num_workers": 10,
+        "seed": 1,
+        "train_batch_size": 64,
+        "num_epochs": 100,
+        "gradient_accumulation_steps": 1,
+        "grad_checkpointing": true,
+        "gradient_clip": 0.1,
+        "gc_step": 1,
+        "optimizer": {
+            "betas": [
+                0.9,
+                0.999,
+                0.9999
+            ],
+            "eps": [
+                1e-30,
+                1e-16
+            ],
+            "lr": 0.0001,
+            "type": "CAMEWrapper",
+            "weight_decay": 0.0
+        },
+        "optimizer_D": {
+            "eps": 1e-10,
+            "lr": 0.0001,
+            "type": "AdamW",
+            "weight_decay": 0.03
+        },
+        "load_from_optimizer": false,
+        "load_from_lr_scheduler": false,
+        "resume_lr_scheduler": true,
+        "lr_schedule": "constant",
+        "lr_schedule_args": {
+            "num_warmup_steps": 2000
+        },
+        "auto_lr": {
+            "rule": "sqrt"
+        },
+        "eval_batch_size": 16,
+        "use_fsdp": false,
+        "use_flash_attn": false,
+        "eval_sampling_steps": 500,
+        "lora_rank": 4,
+        "log_interval": 20,
+        "mask_type": "null",
+        "mask_loss_coef": 0.0,
+        "load_mask_index": false,
+        "snr_loss": false,
+        "real_prompt_ratio": 1.0,
+        "early_stop_hours": 10000.0,
+        "save_image_epochs": 1,
+        "save_model_epochs": 5,
+        "save_model_steps": 500,
+        "visualize": true,
+        "null_embed_root": "output/pretrained_models/",
+        "valid_prompt_embed_root": "output/tmp_embed/",
+        "validation_prompts": [
+            "dog",
+            "portrait photo of a girl, photograph, highly detailed face, depth of field",
+            "Self-portrait oil painting, a beautiful cyborg with golden hair, 8k",
+            "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
+            "A photo of beautiful mountain with realistic sunset and blue lake, highly detailed, masterpiece"
+        ],
+        "local_save_vis": true,
+        "deterministic_validation": true,
+        "online_metric": false,
+        "eval_metric_step": 2000,
+        "online_metric_dir": "metric_helper",
+        "work_dir": "output/debug",
+        "skip_step": 0,
+        "loss_type": "huber",
+        "huber_c": 0.001,
+        "num_ddim_timesteps": 50,
+        "ema_decay": 0.95,
+        "debug_nan": false,
+        "ema_update": false,
+        "ema_rate": 0.9999,
+        "tangent_warmup_steps": 10000,
+        "scm_cfg_scale": [
+            1.0
+        ],
+        "cfg_interval": null,
+        "scm_logvar_loss": true,
+        "norm_invariant_to_spatial_dim": true,
+        "norm_same_as_512_scale": false,
+        "g_norm_constant": 0.1,
+        "g_norm_r": 1.0,
+        "show_gradient": false,
+        "lr_scale": null,
+        "adv_lambda": 1.0,
+        "scm_loss": true,
+        "scm_lambda": 1.0,
+        "loss_scale": 1.0,
+        "r1_penalty": false,
+        "r1_penalty_weight": 1e-05,
+        "diff_timesteps_D": true,
+        "suffix_checkpoints": "disc",
+        "misaligned_pairs_D": false,
+        "discriminator_loss": "cross entropy",
+        "largest_timestep": 1.5708,
+        "train_largest_timestep": false,
+        "largest_timestep_prob": 0.5,
+        "extra": null
+    },
+    "controlnet": null,
+    "model_growth": null,
+    "work_dir": "output/600M_512px",
+    "resume_from": "latest",
+    "load_from": null,
+    "debug": false,
+    "caching": false,
+    "report_to": "wandb",
+    "tracker_project_name": "sana-baseline",
+    "name": "600M_512px",
+    "loss_report_name": "loss"
+}
+2025-04-15 15:55:38 - [Sana] - INFO - World_size: 16, seed: 1
+2025-04-15 15:55:38 - [Sana] - INFO - Initializing: DDP for training
+[AutoencoderDC] Loading model from mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.58it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.52it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.52it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.52it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.51it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.86it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.12it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.64it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.41it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.61it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.39it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.61it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.39it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.58it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.37it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.91it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.71it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.40it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.24it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.43it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.13it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.26it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.97it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.73it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.97it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.82it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.80it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.71it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.83it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.76it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.96it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.90it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.72it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.85it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.65it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.74it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.54it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.78it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.58it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.67it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.49it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.77it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.58it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.73it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.56it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.49it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.13it/s]
+2025-04-15 15:56:16 - [Sana] - INFO - vae type: AutoencoderDC, path: mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers, weight_dtype: torch.float32
+2025-04-15 15:56:16 - [Sana] - INFO - Complex Human Instruct: Given a user prompt, generate an "Enhanced prompt" that provides detailed visual descriptions suitable for image generation. Evaluate the level of detail in the user prompt:
+- If the prompt is simple, focus on adding specifics about colors, shapes, sizes, textures, and spatial relationships to create vivid and concrete scenes.
+- If the prompt is already detailed, refine and enhance the existing details slightly without overcomplicating.
+Here are examples of how to transform or refine prompts:
+- User Prompt: A cat sleeping -> Enhanced: A small, fluffy white cat curled up in a round shape, sleeping peacefully on a warm sunny windowsill, surrounded by pots of blooming red flowers.
+- User Prompt: A busy city street -> Enhanced: A bustling city street scene at dusk, featuring glowing street lamps, a diverse crowd of people in colorful clothing, and a double-decker bus passing by towering glass skyscrapers.
+Please generate only the enhanced description for the prompt below and avoid including any additional commentary or evaluations:
+User Prompt: 
+2025-04-15 15:56:16 - [Sana] - INFO - flow-prediction: True, noise schedule: linear_flow, flow shift: 3.0, flow weighting: logit_normal, logit-mean: 0.0, logit-std: 1.0
+2025-04-15 15:56:19 - [Sana] - INFO - vae type: AutoencoderDC, path: mit-han-lab/dc-ae-f32c32-sana-1.1-diffusers, weight_dtype: torch.float32
+2025-04-15 15:56:19 - [Sana] - INFO - Complex Human Instruct: Given a user prompt, generate an "Enhanced prompt" that provides detailed visual descriptions suitable for image generation. Evaluate the level of detail in the user prompt:
+- If the prompt is simple, focus on adding specifics about colors, shapes, sizes, textures, and spatial relationships to create vivid and concrete scenes.
+- If the prompt is already detailed, refine and enhance the existing details slightly without overcomplicating.
+Here are examples of how to transform or refine prompts:
+- User Prompt: A cat sleeping -> Enhanced: A small, fluffy white cat curled up in a round shape, sleeping peacefully on a warm sunny windowsill, surrounded by pots of blooming red flowers.
+- User Prompt: A busy city street -> Enhanced: A bustling city street scene at dusk, featuring glowing street lamps, a diverse crowd of people in colorful clothing, and a double-decker bus passing by towering glass skyscrapers.
+Please generate only the enhanced description for the prompt below and avoid including any additional commentary or evaluations:
+User Prompt: 
+2025-04-15 15:56:19 - [Sana] - INFO - flow-prediction: True, noise schedule: linear_flow, flow shift: 3.0, flow weighting: logit_normal, logit-mean: 0.0, logit-std: 1.0
+2025-04-15 15:56:19 - [Sana] - INFO - use pe: False, pos embed type: sincos, position embed interpolation: 1.0, base size: 16
+2025-04-15 15:56:19 - [Sana] - INFO - attention type: linear; ffn type: glumbconv; self-attn qk norm: False; cross-attn type: flash;  cross-attn qk norm: False; autocast linear attn: false
+[rank2]:[W415 00:56:23.671652023 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 2]  using GPU 2 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+2025-04-15 15:56:23 - [Sana] - INFO - SanaMS:SanaMS_600M_P1_D28, Model Parameters: 591.75M
+2025-04-15 15:56:23 - [Sana] - INFO - Constructing dataset SanaWebDatasetMS...
+2025-04-15 15:56:23 - [Sana] - INFO - loading from /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData/wids-meta.json
+2025-04-15 15:56:23 - [Sana] - INFO - [SimplyInternal] Loading meta information /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData/wids-meta.json
+2025-04-15 15:56:23 - [Sana] - INFO - [WebShardedList] /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData/wids-meta.json, base: ('/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData',), name: diff-elm-dev, nfiles: 3591nbytes: 0, samples: ('35850189',), cache: /home/wenkunh/.cache/_wids_cache/wenkunh-23c87cbc 
+2025-04-15 15:56:23 - [Sana] - INFO - Loading external caption json from: original_filename['', '_InternVL2-26B', '_InternVL2-8B'].json
+2025-04-15 15:56:23 - [Sana] - INFO - Loading external clipscore json from: original_filename['_InternVL2-26B_clip_score', '_InternVL2-8B_clip_score', '_prompt_clip_score'].json
+2025-04-15 15:56:23 - [Sana] - INFO - external caption clipscore threshold: 25.0, temperature: 0.1
+2025-04-15 15:56:23 - [Sana] - INFO - Text max token length: 300
+2025-04-15 15:56:23 - [Sana] - WARNING - Sort the dataset: False
+2025-04-15 15:56:23 - [Sana] - INFO - Dataset SanaWebDatasetMS constructed: time: 0.02 s, length (use/ori): 35850189/35850189
+[rank0]:[W415 00:56:23.708189369 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank6]:[W415 00:56:23.714288264 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 6]  using GPU 6 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank4]:[W415 00:56:23.715738897 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 4]  using GPU 4 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank1]:[W415 00:56:23.729251526 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank5]:[W415 00:56:23.733240036 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 5]  using GPU 5 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank7]:[W415 00:56:23.747683934 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 7]  using GPU 7 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank3]:[W415 00:56:23.753218424 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 3]  using GPU 3 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank12]:[W415 00:56:25.629008079 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 12]  using GPU 4 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank14]:[W415 00:56:26.130498825 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 14]  using GPU 6 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+2025-04-15 15:56:26 - [Sana] - INFO - SanaMS:SanaMS_600M_P1_D28, Model Parameters: 591.75M
+2025-04-15 15:56:26 - [Sana] - INFO - Constructing dataset SanaWebDatasetMS...
+2025-04-15 15:56:26 - [Sana] - INFO - loading from /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData/wids-meta.json
+2025-04-15 15:56:26 - [Sana] - INFO - [SimplyInternal] Loading meta information /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData/wids-meta.json
+[rank9]:[W415 00:56:26.136616911 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 9]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank13]:[W415 00:56:26.136817668 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 13]  using GPU 5 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank11]:[W415 00:56:26.145847737 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 11]  using GPU 3 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+2025-04-15 15:56:26 - [Sana] - INFO - [WebShardedList] /lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData/wids-meta.json, base: ('/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData',), name: diff-elm-dev, nfiles: 3591nbytes: 0, samples: ('35850189',), cache: /home/wenkunh/.cache/_wids_cache/wenkunh-23c87cbc 
+2025-04-15 15:56:26 - [Sana] - INFO - Loading external caption json from: original_filename['', '_InternVL2-26B', '_InternVL2-8B'].json
+2025-04-15 15:56:26 - [Sana] - INFO - Loading external clipscore json from: original_filename['_InternVL2-26B_clip_score', '_InternVL2-8B_clip_score', '_prompt_clip_score'].json
+2025-04-15 15:56:26 - [Sana] - INFO - external caption clipscore threshold: 25.0, temperature: 0.1
+2025-04-15 15:56:26 - [Sana] - INFO - Text max token length: 300
+2025-04-15 15:56:26 - [Sana] - WARNING - Sort the dataset: False
+2025-04-15 15:56:26 - [Sana] - INFO - Dataset SanaWebDatasetMS constructed: time: 0.02 s, length (use/ori): 35850189/35850189
+[rank8]:[W415 00:56:26.151398495 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 8]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank15]:[W415 00:56:26.155596975 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 15]  using GPU 7 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank10]:[W415 00:56:26.163140703 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 10]  using GPU 2 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+2025-04-15 15:56:33 - [Sana] - WARNING - Using valid_num=0 in config file. Available 40 aspect_ratios: ['0.25', '0.26', '0.27', '0.28', '0.32', '0.33', '0.35', '0.4', '0.42', '0.48', '0.5', '0.52', '0.57', '0.6', '0.68', '0.72', '0.78', '0.82', '0.88', '0.94', '1.0', '1.07', '1.13', '1.21', '1.29', '1.38', '1.46', '1.67', '1.75', '2.0', '2.09', '2.4', '2.5', '2.89', '3.0', '3.11', '3.62', '3.75', '3.88', '4.0']
+2025-04-15 15:56:33 - [Sana] - INFO - No cached file is found, dataloader is slow: /home/wenkunh/.cache/_wids_batchsampler_cache/wenkunh-b293b2d1-sort_datasetFalse-hq_onlyFalse-valid_num0-aspect_ratio40-droplastTruedataset_len35850189-num_replicas16-rank8-/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData.json
+2025-04-15 15:56:33 - [Sana] - INFO - rank-8 Cached file len: 0
+2025-04-15 15:56:33 - [Sana] - INFO - Automatically adapt lr to 0.00020 (using sqrt scaling rule).
+2025-04-15 15:56:33 - [Sana] - WARNING - Using valid_num=0 in config file. Available 40 aspect_ratios: ['0.25', '0.26', '0.27', '0.28', '0.32', '0.33', '0.35', '0.4', '0.42', '0.48', '0.5', '0.52', '0.57', '0.6', '0.68', '0.72', '0.78', '0.82', '0.88', '0.94', '1.0', '1.07', '1.13', '1.21', '1.29', '1.38', '1.46', '1.67', '1.75', '2.0', '2.09', '2.4', '2.5', '2.89', '3.0', '3.11', '3.62', '3.75', '3.88', '4.0']
+2025-04-15 15:56:33 - [Sana] - INFO - No cached file is found, dataloader is slow: /home/wenkunh/.cache/_wids_batchsampler_cache/wenkunh-b293b2d1-sort_datasetFalse-hq_onlyFalse-valid_num0-aspect_ratio40-droplastTruedataset_len35850189-num_replicas16-rank0-/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork/data/InternData.json
+2025-04-15 15:56:33 - [Sana] - INFO - rank-0 Cached file len: 0
+2025-04-15 15:56:33 - [Sana] - INFO - Automatically adapt lr to 0.00020 (using sqrt scaling rule).
+2025-04-15 15:56:33 - [Sana] - INFO - CAMEWrapper Optimizer: total 436 param groups, 436 are learnable, 0 are fix. Lr group: 436 params with lr 0.00020; Weight decay group: 436 params with weight decay 0.0.
+2025-04-15 15:56:33 - [Sana] - INFO - Lr schedule: constant, num_warmup_steps:32000.
+2025-04-15 15:56:33 - [Sana] - WARNING - Basic Setting: lr: 0.00020, bs: 64, gc: True, gc_accum_step: 1, qk norm: False, fp32 attn: True, attn type: linear, ffn type: glumbconv, text encoder: gemma-2-2b-it, captions: {'prompt': 1}, precision: fp16
+2025-04-15 15:56:33 - [Sana] - INFO - CAMEWrapper Optimizer: total 436 param groups, 436 are learnable, 0 are fix. Lr group: 436 params with lr 0.00020; Weight decay group: 436 params with weight decay 0.0.
+2025-04-15 15:56:33 - [Sana] - INFO - Lr schedule: constant, num_warmup_steps:32000.
+2025-04-15 15:56:33 - [Sana] - WARNING - Basic Setting: lr: 0.00020, bs: 64, gc: True, gc_accum_step: 1, qk norm: False, fp32 attn: True, attn type: linear, ffn type: glumbconv, text encoder: gemma-2-2b-it, captions: {'prompt': 1}, precision: fp16
+2025-04-15 15:56:34 - [Sana] - INFO - Set seed: 0
+2025-04-15 15:56:34 - [Sana] - INFO - Set seed: 0
+2025-04-15 15:56:57 - [Sana] - INFO - Epoch: 1 | Global Step: 1 | Local Step: 1 // 35009, total_eta: 942 days, 6:56:58, epoch_eta:9 days, 10:08:35, time: all:1.163, model:0.097, data:0.899, lm:0.056, vae:0.110, lr:0.000e+00, Cap: InternVL2-26B, s:(16, 16), loss:3.9560, grad_norm:inf
+2025-04-15 15:56:57 - [Sana] - INFO - Running validation... 
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 33.96it/s] 42%|████▏     | 8/19 [00:00<00:00, 33.95it/s] 63%|██████▎   | 12/19 [00:00<00:00, 33.87it/s] 84%|████████▍ | 16/19 [00:00<00:00, 33.94it/s]100%|██████████| 19/19 [00:00<00:00, 35.82it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 34.09it/s] 42%|████▏     | 8/19 [00:00<00:00, 34.13it/s] 63%|██████▎   | 12/19 [00:00<00:00, 34.11it/s] 84%|████████▍ | 16/19 [00:00<00:00, 34.34it/s]100%|██████████| 19/19 [00:00<00:00, 36.29it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.33it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.45it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.54it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.51it/s]100%|██████████| 19/19 [00:00<00:00, 38.43it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.64it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.40it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.47it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.51it/s]100%|██████████| 19/19 [00:00<00:00, 38.50it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.58it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.40it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.35it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.21it/s]100%|██████████| 19/19 [00:00<00:00, 38.28it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.56it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.27it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.32it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.41it/s]100%|██████████| 19/19 [00:00<00:00, 38.40it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.37it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.38it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.43it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.23it/s]100%|██████████| 19/19 [00:00<00:00, 38.24it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.55it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.52it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.47it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.48it/s]100%|██████████| 19/19 [00:00<00:00, 38.47it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.35it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.43it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.39it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.49it/s]100%|██████████| 19/19 [00:00<00:00, 38.47it/s]
+  0%|          | 0/19 [00:00<?, ?it/s] 21%|██        | 4/19 [00:00<00:00, 36.53it/s] 42%|████▏     | 8/19 [00:00<00:00, 36.56it/s] 63%|██████▎   | 12/19 [00:00<00:00, 36.56it/s] 84%|████████▍ | 16/19 [00:00<00:00, 36.50it/s]100%|██████████| 19/19 [00:00<00:00, 38.50it/s]
+2025-04-15 15:58:06 - [Sana] - INFO - Epoch: 1 | Global Step: 20 | Local Step: 20 // 35009, total_eta: 187 days, 23:38:25, epoch_eta:1 day, 21:05:27, time: all:3.477, model:0.662, data:1.141, lm:0.455, vae:0.840, lr:1.900e-06, Cap: prompt, s:(16, 16), loss:2.9009, grad_norm:9.1181
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+Apr 15 00:58:39.177553 2504975 slurmstepd   0x15555286c640: error: *** JOB 2396436 ON cw-dfw-h100-004-211-013 CANCELLED AT 2025-04-15T00:58:39 ***
+W0415 00:58:39.173000 3946068 site-packages/torch/distributed/elastic/agent/server/api.py:719] Received Signals.SIGTERM death signal, shutting down workers
+W0415 00:58:39.174000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946136 closing signal SIGTERM
+Apr 15 00:58:39.177804 2505017 slurmstepd   0x15555191e640: error: *** STEP 2396436.1 ON cw-dfw-h100-004-211-013 CANCELLED AT 2025-04-15T00:58:39 ***
+W0415 00:58:39.174000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946137 closing signal SIGTERM
+W0415 00:58:39.174000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946138 closing signal SIGTERM
+W0415 00:58:39.174000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946139 closing signal SIGTERM
+W0415 00:58:39.178000 2505027 site-packages/torch/distributed/elastic/agent/server/api.py:719] Received Signals.SIGTERM death signal, shutting down workers
+W0415 00:58:39.178000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505101 closing signal SIGTERM
+W0415 00:58:39.175000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946140 closing signal SIGTERM
+W0415 00:58:39.175000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946141 closing signal SIGTERM
+W0415 00:58:39.178000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505102 closing signal SIGTERM
+W0415 00:58:39.175000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946142 closing signal SIGTERM
+W0415 00:58:39.179000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505103 closing signal SIGTERM
+W0415 00:58:39.175000 3946068 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3946143 closing signal SIGTERM
+W0415 00:58:39.179000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505104 closing signal SIGTERM
+W0415 00:58:39.179000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505105 closing signal SIGTERM
+W0415 00:58:39.179000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505106 closing signal SIGTERM
+W0415 00:58:39.180000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505107 closing signal SIGTERM
+W0415 00:58:39.180000 2505027 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2505108 closing signal SIGTERM

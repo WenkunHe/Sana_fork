@@ -1083,3 +1083,18 @@ def main(cfg: SanaConfig) -> None:
 
 if __name__ == "__main__":
     main()
+
+
+"""
+export PYTHONPATH=/lustre/fsw/portfolios/nvr/users/wenkunh/workspace/code/Sana_fork:$PYTHONPATH
+
+torchrun --nnodes=1 --nproc_per_node=8 \
+        train_scripts/train.py \
+        --config_path=configs/sana_config/512ms/Sana_600M_img512.yaml \
+        --work_dir=output/debug \
+        --name=tmp \
+        --resume_from=latest \
+        --report_to=wandb \
+        --debug=false \
+        "$@" >output.txt
+"""
